@@ -1,0 +1,26 @@
+{
+    "name": "joaquin Gutierrez",
+    "bio": "Hi! My name is Joaquin. I am from Mar del Plata, Buenos Aires, Argentina. I am 27 years old and I am passionate about technology. I studied 4 years electronic engenering in the UNMdP My main stack is PERN (PostgreSQL, Express, React and NodeJS).",
+    "projects": [
+        {
+            "name": "Fotografía G2",
+            "link": "https://github.com/joaquingutierrez/fotografia-g2",
+            "image": "./img/fotografia-g2.png"
+        },
+        {
+            "name": "Cine",
+            "link": "https://github.com/joaquingutierrez/cine",
+            "image": "./img/cine.png"
+        },
+        {
+            "name": "Protoripo 3D",
+            "link": "https://github.com/joaquingutierrez/prototipo-3d",
+            "image": "./img/prototipo-3d.png"
+        },
+        {
+            "name": "Calculator",
+            "link": "https://github.com/joaquingutierrez/calculator",
+            "image": "./img/calculator.png"
+        }
+    ]
+}
