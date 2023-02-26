@@ -104,12 +104,13 @@ body {
     transform: scale(1.2);
 }
 
-
+#contact {
+    padding: 20px 0;
+}
 .contactContainer {
     display: flex;
     justify-content: space-evenly;
     align-items:baseline;
-    height: 150px;
 }
 .logoContactContainer {
     padding: 10px 150px;
@@ -120,4 +121,58 @@ body {
 }
 .logoContactContainer:hover {
     transform: scale(1.2);
+}
+
+@media (min-width: 889px) and (max-width:1333px) {
+    #home {
+        justify-content: space-around;
+    }
+    .homeTextContainer {
+        width: 45%;
+    }
+    .logoContactContainer {
+        padding: 10px 100px;
+    }
+}
+@media (min-width: 426px) and (max-width:888px) {
+    #home {
+        justify-content: space-around;
+    }
+    .homeTextContainer {
+        width: 50%;
+    }
+    .homeImgContainer {
+        width: 250px;
+        height: 250px;
+    }
+    .contactContainer {
+        flex-direction: column;
+        gap: 20px;
+        height: fit-content;
+        align-items: center;
+    }
+    .logoContactContainer {
+        padding: 10px 30%;
+    }
+}
+@media (min-width: 320px) and (max-width:425px) {
+    #home {
+        flex-direction: column;
+    }
+    .homeTextContainer {
+        width: 100%;
+    }
+    .homeImgContainer {
+        width: 250px;
+        height: 250px;
+    }
+    .contactContainer {
+        flex-direction: column;
+        gap: 20px;
+        height: fit-content;
+        align-items: center;
+    }
+    .logoContactContainer {
+        padding: 10px 30%;
+    }
 }
