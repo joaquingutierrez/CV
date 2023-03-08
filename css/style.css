@@ -147,6 +147,11 @@ body {
     transform: scale(1.2);
 }
 
+.linkToRepo {
+    text-decoration: none;
+    color: #008000;
+}
+
 @media (min-width: 889px) and (max-width:1333px) {
     #home {
         justify-content: space-around;
