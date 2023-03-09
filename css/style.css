@@ -123,6 +123,29 @@ body {
     border-radius: 45px;
 }
 
+.cv {
+    width: fit-content;
+    position: relative;
+    background-color: #fff;
+}
+.cv h4 {
+    margin: 0;
+}
+.dropdown {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+}
+
+.cv:hover .dropdown {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+.dropdown:hover {
+    display: block;
+}
+
 .cardContainer {
     display: flex;
     justify-content: center;
