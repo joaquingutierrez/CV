@@ -7,7 +7,37 @@ body {
     color: #008000;
     width: 90%;
     margin: auto;
+    transition: 0.3s ease-in-out;
 }
+.light {
+    background-color: #fff;
+}
+.darkLight {
+    width: 60px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    transition: 0.3s ease-in-out;
+}
+.darkLightAfter {
+    background-color: #008000;
+    justify-content: flex-start!important;
+}
+.darkLightAfter div {
+    background-color: #fff!important;
+}
+
+.darkLight div {
+    background-color: #008000;
+    width: 25px;
+    height: 70%;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+
 .nav {
     display: flex;
     justify-content: center;

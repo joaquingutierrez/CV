@@ -1,4 +1,5 @@
 const cardContainer = document.getElementsByClassName("cardContainer")[0]
+const darkLightButton = document.getElementsByClassName("darkLight")[0]
 
 const pedirInfo = () => {
     fetch("../data.json")
@@ -27,3 +28,14 @@ const pedirInfo = () => {
 }
 
 pedirInfo()
+
+darkLightButton.addEventListener("click", () => {
+    const body = document.getElementsByTagName("body")[0]
+    if (body.classList.contains("light")) {
+        darkLightButton.classList.remove("darkLightAfter")
+        return body.classList.remove("light")
+
+    }
+    body.classList.add("light")
+    darkLightButton.classList.add("darkLightAfter")
+})
