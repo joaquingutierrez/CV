@@ -17,7 +17,7 @@ const pedirInfo = () => {
                         <div class="cardTechnology">
                             ${acumTech}
                         </div>
-                        <a class="linkToRepo" href=${card.linkToRepo} target="_blank">Link to repo</a>
+                        <a class="linkToRepo" href=${card.linkToRepo} target="_blank"><h4>Link to repo</h4></a>
                     </div>
                 `
                 acumTech = ""

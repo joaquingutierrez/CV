@@ -50,8 +50,18 @@ body {
     width: 75%;
     margin: 70px auto;
     height: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#separation img {
+    margin: 15px;
+}
+#separation div {
+    height: 2px;
+    width: 100%;
     background-color: #008000;
-    border-radius: 0 0 50% 50%;
+    border-radius: 0 0 100% 100%;
 }
 
 
@@ -116,16 +126,18 @@ body {
 }
 .cardTechnology {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     flex-wrap: wrap;
-    height: 60px;
+    height: 96px;
     gap: 15px;
     margin: 25px 10px;
 }
 .cardTechnology p {
     border: 1px solid green;
+    border-radius: 10px;
     margin: 0;
+    padding: 8px 16px;
 }
 
 #contact {
@@ -150,6 +162,16 @@ body {
 .linkToRepo {
     text-decoration: none;
     color: #008000;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    transition: 0.3s ease-in-out;
+}
+.linkToRepo h4 {
+    border-bottom: 1px solid #008000;
+}
+.linkToRepo:hover {
+    transform: scale(1.2);
 }
 
 @media (min-width: 889px) and (max-width:1333px) {
