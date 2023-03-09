@@ -128,6 +128,9 @@ body {
     width: fit-content;
     position: relative;
     background-color: #fff;
+    padding: 10px 24px;
+    border: 2px solid #008000;
+    border-radius: 10px;
 }
 .cv h4 {
     margin: 0;
@@ -136,12 +139,29 @@ body {
     position: absolute;
     display: none;
     background-color: #fff;
+    width: 100%;
+    margin: 0 -26px;
+}
+.dropdown a{
+    display: block;
+    width: fit-content;
+    margin: 8px auto;
+    color: #008000;
+    text-decoration: none;
+    border: 1px solid #008000;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+.dropdown a h5 {
+    margin: 0;
 }
 
 .cv:hover .dropdown {
     display: block;
-    margin: 0;
-    width: 100%;
+    border-bottom: 2px solid #008000;
+    border-left: 2px solid #008000;
+    border-right: 2px solid #008000;
+    border-radius: 0 0 10px 10px;
 }
 .dropdown:hover {
     display: block;
