@@ -42,6 +42,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10%;
     height: 100px;
 }
@@ -238,7 +239,7 @@ body {
         padding: 10px 100px;
     }
 }
-@media (min-width: 426px) and (max-width:888px) {
+@media (min-width: 681px) and (max-width:888px) {
     #home {
         justify-content: space-around;
     }
@@ -259,7 +260,7 @@ body {
         padding: 10px 30%;
     }
 }
-@media (min-width: 320px) and (max-width:425px) {
+@media (min-width: 320px) and (max-width:680px) {
     #home {
         flex-direction: column;
     }
@@ -277,6 +278,7 @@ body {
         align-items: center;
     }
     .logoContactContainer {
-        padding: 10px 30%;
+        padding: 10px 90px;
     }
+
 }
